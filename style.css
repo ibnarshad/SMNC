@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: white;
+}
+
+.container{
+    margin-bottom: 150px;
+}
+
+.logo{
+    height: 100px;
+}
+
+.clg-name{
+    font-weight: bold;
+    background-image: linear-gradient(to right, red, yellow, rgb(13, 255, 106));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: -30px;
+}
+
+.navbar{
+    padding: 0px 70px;
+    margin: auto;
+    background-color: #1ca46b;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover{
+    border-bottom: black 3px solid;
+    color: black;
+}
+
+/* sub menu */
+
+.sub-menu-1{
+    display: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background-color: #1ca46b;
+    padding-top: 20px;
+    margin-left: -50px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li{
+    width: 400px;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+    background-color: #13955f;
+    padding: 15px 10px;
+    border-radius: 7px;
+    border-bottom: none;
+    color: white;
+}
+
+.welcome{
+    background-image: url(./photos/clg\ \(100\).jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+
+.welcome h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    margin-top: 150px;
+}
+
+.wlc-span{
+    background-image: linear-gradient(to right, red, yellow, rgb(13, 255, 106));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.welcome p{
+    color: black;
+}
+
+.h1-p-bg-color{
+    background: rgb(245, 246, 246);
+    padding-left: 15px;
+    padding-bottom: 3px;
+    border-radius: 10px; 
+}
+
+.wlc-note{
+    margin-top: 150px;
+}
+
+.clg-photo{
+    width: 530px;
+    height: 380px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.programs{
+    background-color: #e5e4e2;
+    height: 140vh;
+}
+
+.heading{
+    background-color: #1ca46b;
+    font-weight: bold;
+    border-radius: 10px;
+    text-align: center;
+    color: black;
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+
+.heading-campus{
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+
+.heading2{
+    text-align: center;
+    font-weight: bold;
+    background-color: #e5e4e2;
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+.aims-photo{
+    height: 300px;
+    padding-left: 150px;
+}
+
+.governing-photo{
+    height: 320px;
+    border-radius: 50%;
+}
+
+.mujib{
+    margin-left: 60px;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
+
+.footer1{
+    background-color: rgb(27, 19, 19);
+    height: 50vh;
+    padding: 100px;
+    margin-top: 50px;
+    padding-top: 80px;
+    color: white;
+}
+
+.footer-logo{
+    height: 110px;
+    padding-left: 100px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+
+
+
+
+
+
+
+
+/* gallery css */
+
+.heading{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.photo{
+    height: 250px;
+    margin: 10px;
+}
